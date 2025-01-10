@@ -219,7 +219,7 @@
    }
  }
  
- const token = '7313879135:AAFjjP1BHQy4F9euarapRopFTuj5AM1jQJU'; // Вставьте свой токен
+ const token = '';
  const bot = new TelegramBot(token, { polling: true });
  
  /**
