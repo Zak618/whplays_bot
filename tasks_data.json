@@ -1,0 +1,182 @@
+[
+      {
+        "description": "Напишите функцию, возвращающую сумму двух чисел.",
+        "function_name": "sum",
+        "tests": [
+          { "input": [1, 2], "expected": 3 },
+          { "input": [5, 5], "expected": 10 },
+          { "input": [-1, 1], "expected": 0 }
+        ]
+      },
+      {
+        "description": "Напишите функцию, возвращающую разность двух чисел.",
+        "function_name": "subtract",
+        "tests": [
+          { "input": [3, 2], "expected": 1 },
+          { "input": [10, 5], "expected": 5 },
+          { "input": [1, -1], "expected": 2 }
+        ]
+      },
+      {
+        "description": "Напишите функцию, возвращающую произведение двух чисел.",
+        "function_name": "multiply",
+        "tests": [
+          { "input": [3, 2], "expected": 6 },
+          { "input": [10, 5], "expected": 50 },
+          { "input": [-1, 1], "expected": -1 }
+        ]
+      },
+      {
+        "description": "Напишите функцию, возвращающую частное двух чисел.",
+        "function_name": "divide",
+        "tests": [
+          { "input": [6, 2], "expected": 3 },
+          { "input": [10, 5], "expected": 2 },
+          { "input": [1, -1], "expected": -1 }
+        ]
+      },
+      {
+        "description": "Напишите функцию, которая возвращает квадрат числа.",
+        "function_name": "square",
+        "tests": [
+          { "input": [2], "expected": 4 },
+          { "input": [5], "expected": 25 },
+          { "input": [-1], "expected": 1 }
+        ]
+      },
+      {
+        "description": "Напишите функцию, которая возвращает факториал числа.",
+        "function_name": "factorial",
+        "tests": [
+          { "input": [3], "expected": 6 },
+          { "input": [5], "expected": 120 },
+          { "input": [0], "expected": 1 }
+        ]
+      },
+      {
+        "description": "Возвращает true, если число чётное, иначе false.",
+        "function_name": "isEven",
+        "tests": [
+          { "input": [2], "expected": true },
+          { "input": [5], "expected": false },
+          { "input": [0], "expected": true }
+        ]
+      },
+      {
+        "description": "Возвращает длину строки.",
+        "function_name": "stringLength",
+        "tests": [
+          { "input": ["hello"], "expected": 5 },
+          { "input": ["world"], "expected": 5 },
+          { "input": ["!"], "expected": 1 }
+        ]
+      },
+      {
+        "description": "Возвращает строку в верхнем регистре.",
+        "function_name": "toUpperCase",
+        "tests": [
+          { "input": ["hello"], "expected": "HELLO" },
+          { "input": ["world"], "expected": "WORLD" },
+          { "input": ["!"], "expected": "!" }
+        ]
+      },
+      {
+        "description": "Возвращает строку в нижнем регистре.",
+        "function_name": "toLowerCase",
+        "tests": [
+          { "input": ["HELLO"], "expected": "hello" },
+          { "input": ["WORLD"], "expected": "world" },
+          { "input": ["!"], "expected": "!" }
+        ]
+      },
+      {
+        "description": "Разворачивает строку задом наперёд.",
+        "function_name": "reverseString",
+        "tests": [
+          { "input": ["abc"], "expected": "cba" },
+          { "input": ["Hello"], "expected": "olleH" },
+          { "input": [""], "expected": "" }
+        ]
+      },
+      {
+        "description": "Проверяет, является ли строка палиндромом.",
+        "function_name": "isPalindrome",
+        "tests": [
+          { "input": ["racecar"], "expected": true },
+          { "input": ["abba"], "expected": true },
+          { "input": ["hello"], "expected": false }
+        ]
+      },
+      {
+        "description": "Возвращает n-е число Фибоначчи (0,1,1,2,3,5...).",
+        "function_name": "fibonacci",
+        "tests": [
+          { "input": [0], "expected": 0 },
+          { "input": [1], "expected": 1 },
+          { "input": [6], "expected": 8 }
+        ]
+      },
+      {
+        "description": "Возвращает максимальное из трёх чисел.",
+        "function_name": "maxOfThree",
+        "tests": [
+          { "input": [1, 2, 3], "expected": 3 },
+          { "input": [10, 5, 7], "expected": 10 },
+          { "input": [-1, -5, -3], "expected": -1 }
+        ]
+      },
+      {
+        "description": "Возвращает минимальное из трёх чисел.",
+        "function_name": "minOfThree",
+        "tests": [
+          { "input": [1, 2, 3], "expected": 1 },
+          { "input": [10, 5, 7], "expected": 5 },
+          { "input": [-1, -5, -3], "expected": -5 }
+        ]
+      },
+      {
+        "description": "Возвращает среднее из трёх чисел.",
+        "function_name": "averageOfThree",
+        "tests": [
+          { "input": [1, 2, 3], "expected": 2 },
+          { "input": [10, 10, 10], "expected": 10 },
+          { "input": [2, 3, 7], "expected": 4 }
+        ]
+      },
+      {
+        "description": "Возводит число x в степень y.",
+        "function_name": "power",
+        "tests": [
+          { "input": [2, 3], "expected": 8 },
+          { "input": [5, 2], "expected": 25 },
+          { "input": [10, 0], "expected": 1 }
+        ]
+      },
+      {
+        "description": "Проверяет, является ли число простым (prime).",
+        "function_name": "isPrime",
+        "tests": [
+          { "input": [2], "expected": true },
+          { "input": [15], "expected": false },
+          { "input": [17], "expected": true }
+        ]
+      },
+      {
+        "description": "Генерирует случайное целое между min и max (включительно).",
+        "function_name": "randomBetween",
+        "tests": [
+          { "input": [1, 3], "expected": "DIAPASON_1_3" },
+          { "input": [5, 5], "expected": 5 }, 
+          { "input": [-2, 2], "expected": "DIAPASON_-2_2" }
+        ]
+      },
+      {
+        "description": "Преобразует строку в camelCase.",
+        "function_name": "toCamelCase",
+        "tests": [
+          { "input": ["hello world"], "expected": "helloWorld" },
+          { "input": ["make javascript great again"], "expected": "makeJavascriptGreatAgain" },
+          { "input": [""], "expected": "" }
+        ]
+      }
+    ]

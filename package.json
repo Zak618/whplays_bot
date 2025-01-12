@@ -2,15 +2,19 @@
   "name": "whplays_bot",
   "version": "1.0 beta",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9",
     "vm2": "^3.9.19"
   }
 }
